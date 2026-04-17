@@ -3,7 +3,7 @@ import './Projects.css'
 const projects = [
   {
     title: "Mivern Solutions",
-    image: "/projects/event-home.jpg",
+    image: "/mivern.jpg",
     desc: "A website that showcases the services and projects of Mivern Solutions, a web design company.",
     tech: ["React", "PHP", "MySQL"],
     github: "#",
