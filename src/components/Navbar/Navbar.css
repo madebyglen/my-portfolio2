@@ -1,0 +1,74 @@
+/* NAVBAR CONTAINER */
+.navbar {
+  position: relative;
+  top: 20px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  z-index: 100;
+}
+
+/* LOGO (LEFT) */
+.logo {
+  width: 100px;
+  height: 30px;
+  border-radius: 10%;
+  background: #111;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  border: 1px solid #222;
+}
+
+/* CENTER NAV (PILL STYLE) */
+.nav-center {
+  display: flex;
+  gap: 25px;
+  background: rgba(20, 20, 20, 0.8);
+  padding: 10px 25px;
+  border-radius: 30px;
+  border: 1px solid #222;
+  backdrop-filter: blur(10px);
+}
+
+/* LINKS */
+.nav-center a {
+  text-decoration: none;
+  color: #ccc;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+/* HOVER */
+.nav-center a:hover {
+  color: white;
+}
+
+/* RIGHT BUTTON */
+.nav-right .talk-btn {
+  background: #111;
+  border: 1px solid #333;
+  padding: 8px 15px;
+  border-radius: 10px;
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  transition: 0.3s;
+}
+
+.nav-right .talk-btn:hover {
+  border-color: #555;
+}
+
+/* 📱 MOBILE */
+@media (max-width: 768px) {
+  .nav-center {
+    display: none;
+  }
+
+  .navbar {
+    padding: 0 20px;
+  }
+}

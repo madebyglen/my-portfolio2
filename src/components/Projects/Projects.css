@@ -1,0 +1,79 @@
+.projects {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.projects-sub {
+  color: #aaa;
+  margin-bottom: 40px;
+}
+
+/* GRID */
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+}
+
+/* CARD */
+.project-card {
+  background: #111;
+  border: 1px solid #222;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: left;
+  transition: 0.3s;
+}
+
+/* HOVER EFFECT */
+.project-card:hover {
+  border-color: #444;
+  transform: translateY(-5px);
+}
+
+/* DESCRIPTION */
+.project-card .desc {
+  color: #bbb;
+  margin: 10px 0 15px;
+}
+
+/* TAGS */
+.tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: 15px;
+}
+
+.tags span {
+  background: #1a1a1a;
+  padding: 5px 10px;
+  border-radius: 6px;
+  font-size: 12px;
+}
+
+/* LINKS */
+.project-links {
+  display: flex;
+  gap: 15px;
+}
+
+.project-links a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+  border-bottom: 1px solid #444;
+  transition: 0.3s;
+}
+
+.project-links a:hover {
+  color: cyan;
+  border-color: cyan;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+}
