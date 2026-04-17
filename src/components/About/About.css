@@ -1,6 +1,11 @@
 .about {
   padding: 80px 20px;
   text-align: center;
+  min-height: 50vh;
+  padding: 80px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .about-desc {

@@ -2,6 +2,11 @@
   padding: 10px 100px;
   text-align: center;
   font-family: poppins, sans-serif;
+  /* min-height: 70vh; */
+  padding: 100px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .services h2 {

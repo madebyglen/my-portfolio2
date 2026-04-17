@@ -5,13 +5,16 @@ const Navbar = () => {
     <header className="navbar">
 
       {/* LOGO */}
-      <div className="logo"><img src="madebyglen.logo.jpg" alt="profile" /></div>
+      <div className="logo"> 
+
+      <img src="madebyglen.logo.jpg" alt="profile" />
+      </div>
 
       {/* CENTER NAV */}
       <nav className="nav-center">
         <a href="#home">Home</a>
-        <a href="#services">Services</a>
         <a href="#about">About</a>
+        <a href="#services">Services</a>
         <a href="#skills">Skills</a>
         <a href="#projects">Projects</a>
       </nav>

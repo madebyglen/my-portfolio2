@@ -1,6 +1,9 @@
 .skills {
-  padding: 80px 20px;
   text-align: center;
+  padding: 100px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
 .skills-sub {
@@ -11,7 +14,7 @@
 /* GRID */
 .skills-grid {
   display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 20px;
 }
 
@@ -22,24 +25,47 @@
   padding: 20px;
   border-radius: 12px;
   text-align: left;
+  transition: 0.3s;
+}
+
+.skill-card:hover {
+  border-color: #555;
 }
 
 .skill-card h3 {
   margin-bottom: 15px;
 }
 
-/* TAGS */
+/* TAGS CONTAINER */
 .tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 10px;
+  gap: 100px;
 }
 
+/* EACH SKILL ITEM */
 .tags span {
   background: #1a1a1a;
-  padding: 6px 10px;
-  border-radius: 8px;
+  padding: 12px 14px;
+  border-radius: 10px;
   font-size: 13px;
+  min-width: 110px;
+
+  display: flex;
+  flex-direction: column;   /* icon on top */
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+
+  text-align: center;
+}
+
+/* ICON */
+.tag-icon {
+  font-size: 22px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 /* MOBILE */
