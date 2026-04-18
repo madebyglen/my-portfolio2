@@ -6,15 +6,15 @@ const projects = [
     image: "/mivern.jpg",
     desc: "A website that showcases the services and projects of Mivern Solutions, a web design company.",
     tech: ["React", "PHP", "MySQL"],
-    github: "#",
+    github: "https://github.com/madebyglen",
     live: "#"
   },
   {
     title: "Portfolio Website",
-    image: "/projects/portfolio-home.jpg",
+    image: "/portfolio.jpg",
     desc: "My personal portfolio built with React and TypeScript.",
     tech: ["React", "TypeScript", "CSS"],
-    github: "https://github.com/madebyglen/my-portfolio2",
+    github: "https://github.com/madebyglen",
     live: "#"
   },
   {

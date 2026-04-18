@@ -36,6 +36,13 @@
   margin-bottom: 15px;
 }
 
+/* HOVER */
+.skill-card:hover {
+  border-color: #444;
+  transform: translateY(-5px);
+}
+
+
 /* TAGS CONTAINER */
 .tags {
   display: flex;
