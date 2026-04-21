@@ -31,7 +31,14 @@
   display: flex;
   gap: 10px;
   align-items: center;
+  transition: 0.3s;
 }
+
+.approach-card:hover {
+  transform: translateY(-5px);
+  border-color: #555;
+}
+
 
 .approach-card span {
   background: #222;

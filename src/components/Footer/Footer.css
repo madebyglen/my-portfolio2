@@ -1,0 +1,38 @@
+.footer {
+  margin-top: 60px;
+  padding: 25px 40px;
+  border-top: 1px solid #222;
+  background: #0d0d0d;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+/* LOGO */
+.footer-logo img {
+  width: 95px;
+  height: 45px;
+  object-fit: contain;
+}
+
+/* COPYRIGHT */
+.footer-copy {
+  color: #888;
+  font-size: 14px;
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    text-align: center;
+    padding: 20px;
+  }
+
+  .footer-logo img {
+    width: 40px;
+    height: 40px;
+  }
+}
