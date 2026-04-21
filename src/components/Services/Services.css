@@ -29,7 +29,7 @@
 }
 
 .service-card:hover {
-  border-color: #555;
+  border-color: cyan;
    transform: translateY(-5px);
 }
 

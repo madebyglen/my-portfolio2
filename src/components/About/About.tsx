@@ -2,7 +2,7 @@ import './About.css'
 
 const About = () => {
   return (
-    <section id = "about" className="about">
+    <section id="about" className="about">
 
       <h2>About Me</h2>
 
@@ -14,20 +14,40 @@ const About = () => {
 
       {/* APPROACH */}
       <div className="approach">
+
         <div className="approach-card">
           <span>01</span>
-          <p>Understand users & goals</p>
+
+          <h3>Understand users & goals</h3>
+
+          <p>
+            I begin by understanding user needs, business goals, and project
+            requirements to ensure the final product solves real problems.
+          </p>
         </div>
 
         <div className="approach-card">
           <span>02</span>
-          <p>Create clean UI layouts</p>
+
+          <h3>Create clean UI layouts</h3>
+
+          <p>
+            I design structured and modern interfaces that are visually appealing,
+            easy to navigate, and focused on a smooth user experience.
+          </p>
         </div>
 
         <div className="approach-card">
           <span>03</span>
-          <p>Build responsive experiences</p>
+
+          <h3>Build responsive experiences</h3>
+
+          <p>
+            I develop websites that adapt seamlessly across desktops, tablets,
+            and mobile devices while maintaining performance and usability.
+          </p>
         </div>
+
       </div>
 
       {/* STATS */}

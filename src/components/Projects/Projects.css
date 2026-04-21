@@ -33,7 +33,7 @@
 
 /* HOVER */
 .project-card:hover {
-  border-color: #444;
+  border-color: cyan;
   transform: translateY(-5px);
 }
 
