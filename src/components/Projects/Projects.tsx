@@ -17,14 +17,14 @@ const projects = [
     github: "https://github.com/madebyglen",
     live: "#"
   },
-  {
-    title: "Student Management System",
-    image: "/projects/student-home.jpg",
-    desc: "Desktop system for managing students, grades, and attendance.",
-    tech: ["VB.NET", "MySQL"],
-    github: "#",
-    live: "#"
-  }
+  // {
+  //   title: "Student Management System",
+  //   image: "/projects/student-home.jpg",
+  //   desc: "Desktop system for managing students, grades, and attendance.",
+  //   tech: ["VB.NET", "MySQL"],
+  //   github: "#",
+  //   live: "#"
+  // }
 ]
 
 const Projects = () => {
