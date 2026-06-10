@@ -33,7 +33,7 @@
 
 /* HOVER */
 .project-card:hover {
-  border-color: cyan;
+  border-color: rgb(246, 246, 246);
   transform: translateY(-5px);
 }
 
@@ -103,8 +103,8 @@
 }
 
 .project-links a:hover {
-  color: cyan;
-  border-color: cyan;
+  color: rgb(243, 244, 244);
+  border-color: rgb(243, 244, 244);
 }
 
 /* TABLET */

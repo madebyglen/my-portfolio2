@@ -5,7 +5,7 @@ const projects = [
     title: "Mivern Solutions",
     image: "/mivern.jpg",
     desc: "A website that showcases the services and projects of Mivern Solutions, a web design company.",
-    tech: ["React", "PHP", "MySQL"],
+    tech: ["React", "CSS", "Typescript"],
     github: "https://github.com/madebyglen",
     live: "#"
   },
@@ -17,14 +17,14 @@ const projects = [
     github: "https://github.com/madebyglen",
     live: "#"
   },
-  // {
-  //   title: "Student Management System",
-  //   image: "/projects/student-home.jpg",
-  //   desc: "Desktop system for managing students, grades, and attendance.",
-  //   tech: ["VB.NET", "MySQL"],
-  //   github: "#",
-  //   live: "#"
-  // }
+  {
+    title: "Bluelock Architects",
+    image: "/bluelock.jpg",
+    desc: "A Bluelock Architects website.",
+    tech: ["Typescript", "React", "Tailwind CSS"],
+    github: "#",
+    live: "#"
+  }
 ]
 
 const Projects = () => {

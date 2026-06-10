@@ -11,13 +11,12 @@ const Hero = () => {
           <p className="intro"> Hey, I'm Glen</p>
 
           <h1>
-            Front-End <br />
-            Developer
+            Front-End Developer<br />
+            Junior IT Specialist
           </h1>
 
           <p className="description">
             I build clean, modern, and responsive web applications.
-            Currently growing into backend, DevOps, and cybersecurity.
           </p>
 
           <button className="btn-primary">Download CV</button>

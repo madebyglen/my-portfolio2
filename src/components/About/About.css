@@ -44,7 +44,7 @@
 
 .approach-card:hover {
   transform: translateY(-6px);
-  border-color: cyan;
+  border-color:white;
 }
 
 /* NUMBER */
