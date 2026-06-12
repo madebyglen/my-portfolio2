@@ -12,19 +12,19 @@ const Hero = () => {
 
           <h1>
             Front-End Developer<br />
-            Junior IT Specialist
+          Junior IT Specialist
           </h1>
 
           <p className="description">
             I build clean, modern, and responsive web applications.
           </p>
 
-          <button className="btn-primary">Download CV</button>
+          {/* <button className="btn-primary">Download CV</button>
 
           <div className="socials">
             <span>🔗</span>
             <span>🐱</span>
-          </div>
+          </div> */}
         </div>
 
         {/* RIGHT SIDE */}
