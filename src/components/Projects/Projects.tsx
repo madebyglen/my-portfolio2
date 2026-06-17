@@ -7,7 +7,7 @@ const projects = [
     desc: "A website that showcases the services and projects of Mivern Solutions, a web design company.",
     tech: ["React", "CSS", "Typescript"],
     github: "https://github.com/madebyglen",
-    live: "#"
+    live: ""
   },
   {
     title: "Portfolio Website",
@@ -15,7 +15,7 @@ const projects = [
     desc: "My personal portfolio built with React and TypeScript.",
     tech: ["React", "TypeScript", "CSS"],
     github: "https://github.com/madebyglen",
-    live: "#"
+    live: "https://madebyglen.vercel.app/"
   },
   {
     title: "Bluelock Architects",
