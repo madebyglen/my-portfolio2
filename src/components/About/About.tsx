@@ -7,9 +7,8 @@ const About = () => {
       <h2>About Me</h2>
 
       <p className="about-desc">
-        I am a frontend developer passionate about crafting clean, intuitive,
-        and responsive digital experiences. I focus on turning ideas into
-        seamless interfaces while expanding into backend, DevOps, and cybersecurity.
+        I am a frontend developer passionate about crafting clean, intuitive, and responsive digital experiences. 
+        I focus on turning ideas into seamless interfaces while expanding into comprehensive IT solutions, systems management, and technical problem-solving.
       </p>
 
       {/* APPROACH */}
