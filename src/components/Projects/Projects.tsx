@@ -22,8 +22,8 @@ const projects = [
     image: "/bluelock.jpg",
     desc: "A Bluelock Architects website.",
     tech: ["Typescript", "React", "Tailwind CSS"],
-    github: "bluelockarchitects.netlify.app",
-    live: "#"
+    github: "https://github.com/madebyglen/my-portfolio2",
+    live: "https://bluelockarchitects.netlify.app"
   }
 ]
 
